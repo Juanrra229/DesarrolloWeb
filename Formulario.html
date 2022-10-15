@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>MAQUETACION EN HTML</title>
+    <link rel="stylesheet" href="css/estiloFormulario.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+
+    <!--cabecera -->
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav me-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio
+                        <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Tablas.html">Tabla</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Video.html">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Formulario.html">Formulario</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+
+
+        <img src="media/Banner.jpg" width="1300" height="80" alt="Banner"/>
+        <p></p>
+        <h1>FORMULARIO</h1>
+    </header>
+
+    <!--CONTENIDO CENTRAL-->
+    <section>
+
+        <p>Next, the following validation form is presented
+        <p></p>
+
+        <form action= "" id="form">
+            
+            <div class="form" >
+                <div class="group">
+                  <label for="Names">Nombres Completos</label>
+                  <input type="text" class="form-control" id="name" placeholder="Nombres">
+                </div>
+                <div class="group">
+                  <label for="lastName">Apellidos Completos</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="Apellidos">
+                </div>
+                <div class="group">
+                    <label for="cellPhone">Num. Celular</label>
+                    <input type="text" class="form-control" id="cellPhone" placeholder="Celular">
+                </div>
+                <div class="group">
+                    <label for="Email">Correo Electronico</label>
+                    <input type="email" class="form-control" id="Email" placeholder="Email">
+                </div>
+                <div class="group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <p></p>
+                <button type="submit" onclick="return validaEnvia();">Enviar </button>
+                <p class="warnings" id="warnings"></p>
+            </div>
+        </form>
+
+    </section>
+
+    <!--contenedor de opciones de menu-->
+    <aside>
+
+        <h3>OPCIONES DE MENU</h3>
+        <p></p>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="collapse navbar-collapse" id="navbarColor01">
+             <ul class="navbar-nav me-auto">
+                   <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio
+                          <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>       
+               </ul>
+           </div>
+       </nav>
+       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="collapse navbar-collapse" id="navbarColor01">
+         <ul class="navbar-nav me-auto">
+               <li class="nav-item active">
+                    <a class="nav-link" href="Tablas.html">Tabla
+                      <span class="visually-hidden">(current)</span>
+                    </a>
+                </li>       
+           </ul>
+       </div>
+   </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item active">
+                        <a class="nav-link" href="Video.html">Videos
+                        <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>       
+            </ul>
+        </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="collapse navbar-collapse" id="navbarColor01">
+             <ul class="navbar-nav me-auto">
+                   <li class="nav-item active">
+                        <a class="nav-link" href="Formulario.html">Formulario
+                          <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>       
+               </ul>
+           </div>
+       </nav>
+    </aside>
+
+    <!--pie de pagina-->
+    <footer>
+        <a href="#">Derechos Reservados por : JuanMoreno</a>
+        <p>Localizado en medellin Antioquia</p> 
+    
+    </footer>
+<script src="JavaScript/Validations.js"></script>
+</body>
+</html>
